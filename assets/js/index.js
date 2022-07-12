@@ -1,4 +1,5 @@
 import{propiedadesJSON} from "./data.js" 
+
 function templateCard(departamento) {
   return `
     <div class="propiedad">
