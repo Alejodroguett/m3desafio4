@@ -1,5 +1,4 @@
-import{propiedadesJSON} from "./data.js"
-
+import{propiedadesJSON} from "./data.js" 
 function templateCard(departamento) {
   return `
     <div class="propiedad">
@@ -48,9 +47,9 @@ function buscar() {
 
   //alerts
   if (
-    inputRooms === ""
-    ||inputFromMeters === ""
-    ||inputToMeters === ""
+    inputRooms == ""
+    ||inputFromMeters == ""
+    ||inputToMeters == ""
   ){
     swal({
       title: "Debes llenar todos los campos.",
